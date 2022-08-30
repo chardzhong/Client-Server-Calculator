@@ -8,4 +8,8 @@ Each protocol implements a server-side calculator that accepts data from a clien
 
 Each protocol also handles invalid inputs, timeouts, and dead server cases.
 
-To run the protocols, create a txt file with yoour desired inputs. Any number of inputs can be run as long as each input is   
+To run the protocols, first create a txt file with your desired inputs. Any number of inputs can be run on new lines. See test.txt for example.
+Run server: python3 server.py
+Run client with inputs: python3 client.py test.txt
+
+Easy squeezy.
