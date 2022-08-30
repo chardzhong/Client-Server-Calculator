@@ -1,9 +1,11 @@
 Client Server Calculator
 
-Repo contains Client/Server programs for TCP, Simulated unreliable UDP, and Reliable UDP
+This repository contains programs simulating sending data using various transmission protocols; TCP, Simulated unreliable UDP, and Reliable UDP
 
-Simulated on local host.
+All programs send information on a local host network.
 
-Programs implement server-side calculator that accepts data in "operator number number" form and returns result of equation.
+Each protocol implements a server-side calculator that accepts data from a client program in "operator number number" form (e.g. * 4 8) and returns the result of the equation back to the client.
 
-Programs implement error messages, timeouts, and "dead server" cases.
+Each protocol also handles invalid inputs, timeouts, and dead server cases.
+
+To run the protocols, create a txt file with yoour desired inputs. Any number of inputs can be run as long as each input is   
