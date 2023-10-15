@@ -12,4 +12,4 @@ To run the protocols, first create a txt file with your desired inputs. Any numb
 Run server: python3 server.py
 Run client with inputs: python3 client.py test.txt
 
-Easy squeezy.
+
